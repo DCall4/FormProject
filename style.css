@@ -1,0 +1,117 @@
+body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.Left-Side {
+    background-image: url(./Cathedral.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40vw;
+}
+
+.OdinBanner {
+    display: flex;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    top: 40vh;
+    gap: 1vw;
+    padding: 15px 0;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-size: 35px;
+}
+
+.odin {
+    height: 8vh;
+}
+
+.ThankYou {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 12px;
+    
+}
+
+.Right-Side {
+    width: 60vw;
+    background-color: rgb(233, 233, 233);
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+h2 {
+    font-weight: 500;
+    width: 90%;
+    font-size: 1.2rem;
+    padding: 20px;
+    margin: 0;
+}
+
+.sillytext {
+    padding-bottom: 150px;
+}
+
+form {
+    background-color: rgb(220, 225, 231);
+    box-shadow: 0 10px 20px -2px rgb(22, 22, 22);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+
+}
+
+
+.Row {
+    display: flex;
+    flex-flow: column wrap;
+    width: 40%;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    opacity: 90%;
+    padding: 10px;
+}
+
+.SignUpBox {
+    display: flex;
+}
+
+label {
+    height: 12px;
+}
+
+input {
+    background-color: aliceblue;
+    border: 2px solid blue;
+    border-radius: 3px;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid green;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    font-weight: 500;
+    font-size: 0.8rem;
+    border: 2px solid green;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 30%;
+}
+
+button:hover {
+    background-color: green;
+}
